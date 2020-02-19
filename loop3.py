@@ -1,5 +1,5 @@
 loop = True
-data = {}
+
 
 while loop:
     try:
