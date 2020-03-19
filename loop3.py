@@ -13,6 +13,10 @@ while loop:
         print('Eres menor')
 
     r = input('Quiere volver a intentar? s/n \n')
+    while r is not 'n' and r is not 's':
+        print('Introduzca "s" si desea volver a intentar o "n" si desea cerrar el programa')
+        r = input()
     if r == 'n':
         print('Usted ha cerrado el programa')
         loop = False
+
