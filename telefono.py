@@ -21,7 +21,7 @@ def search_number(text):
 message = "Hello, I'm Nathaly. Call me at 621-453-1254 tomorrow. If I don't answer try 321-654-7521, which is my office number"
 
 for i in range(len(message)):
-    number = message[i:i+12]
+    number = message[i:i+12] #Corto el mensaje en 12 caracteres
     if search_number(number):
         print("Phone number found: "+ number)
 print("Finalizado")
