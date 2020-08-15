@@ -4,7 +4,7 @@ for i in list:
     m = i ** 2
     print(m)
 
-
+//Imprime el cuadrado de cada elemento de la lista
 // 1
 // 4
 // 9
