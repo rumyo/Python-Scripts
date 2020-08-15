@@ -4,14 +4,14 @@ for i in list:
     m = i ** 2
     print(m)
 
-//Imprime el cuadrado de cada elemento de la lista
-// 1
-// 4
-// 9
-// 16
-// 25
-// 36
-// 49
-// 64
-// 81
-// 100
+#Imprime el cuadrado de cada elemento de la lista
+# 1
+# 4
+# 9
+# 16
+# 25
+# 36
+# 49
+# 64
+# 81
+# 100
