@@ -54,4 +54,4 @@ Methods
    - dict.update(other_dictionary) - Updates the dictionary with the items coming from the other dictionary. Existing entries will be replaced; new entries will be added.
    - dict.clear() - Removes all the items of the dictionary
     
-    https://docs.python.org/3/library/stdtypes.html#mapping-types-dict
+   official documentation: https://docs.python.org/3/library/stdtypes.html#mapping-types-dict
