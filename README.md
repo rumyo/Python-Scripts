@@ -1,5 +1,4 @@
-# Practica-Python
-Practicando con python
+# Practicando con python
 
 String Reference Cheat Sheet
 
@@ -30,7 +29,7 @@ Check out the official documentation for all available String methods: https://d
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Dictionary Methods Cheat Sheet
+# Dictionary Methods Cheat Sheet
 
 Definition
 
