@@ -10,3 +10,5 @@ class Shirt(Clothing):
 
 polo = Shirt("Polo")
 polo.checkmaterial()
+
+#This Polo is made of Cotton
