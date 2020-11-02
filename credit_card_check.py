@@ -14,6 +14,8 @@ output_dataset=USERID+".OUTPUT.CCINVALD"
 #Delete the output dataset if it already exists
 if Datasets.exists(output_dataset):
     Datasets.delete(output_dataset)
+
+Datasets.create(output_dataset, type = "SEQ")
 # Use this line to create a new SEQUENTIAL DATA SET with the name of output_dataset
 # (hint: https://www.ibm.com/support/knowledgecenter/SSKFYE_1.0.1/python_doc_zoautil/api/datasets.html?view=embed)
 
