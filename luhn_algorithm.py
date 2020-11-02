@@ -17,4 +17,4 @@ else:
     print("VALID")
     #print(luhn("8830723086640477"));
 
-#result will print valid
+#result will print valid because the function returns 0
