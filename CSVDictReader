@@ -20,11 +20,15 @@ def contents_of_file(filename):
 
   # Open the file
   with open(filename, "r") as file:
-    # Read the rows of the file into a dictionary
-    f = csv.DictReader(file)
-    # Process each item of the dictionary
-    for row in f:
-      return_string += "a {} {} is {}\n".format(row["color"], row["name"], row["type"])
+    # Read the rows of the file
+    rows = csv.reader(file)
+    headers = next(rows)
+    # Process each row
+    for row in rows:
+      name, color, ty = row
+      # Format the return string for data rows only
+
+      return_string += "a {} {} is {}\n".format(color, name, ty)
   return return_string
 
 #Call the function
