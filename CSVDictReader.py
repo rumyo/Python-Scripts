@@ -33,3 +33,12 @@ def contents_of_file(filename):
 
 #Call the function
 print(contents_of_file("flowers.csv"))
+
+'''
+Prints:
+a pink carnation is annual
+a yellow daffodil is perennial
+a blue iris is perennial
+a red poinsettia is perennial
+a yellow sunflower is annual
+'''
