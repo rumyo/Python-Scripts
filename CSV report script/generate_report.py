@@ -11,7 +11,7 @@ def read_employees(csv_file_location):
 
 def process_data(employee_list):
   department_list = []
-  for employee_data in employee_list:
+  for employee_data in employee_list: #initialize a new list called department_list, iterate over employee_list, and add only the departments into the department_list
     department_list.append(employee_data['Department'])
 
 #We will return this dicationary in the format department:amount, where amount is the number of employees in that particular department.
