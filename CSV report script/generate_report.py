@@ -7,7 +7,7 @@ def read_employees(csv_file_location):
   employee_list = []
   for data in employee_file:
         employee_list.append(data)
-  return employee_list
+  return employee_list  #returns a dictionary of the employees
 
 def process_data(employee_list):
   department_list = []
@@ -18,7 +18,7 @@ def process_data(employee_list):
   department_data = {}
   for department_name in set(department_list): #This uses the set() method, which converts iterable elements to distinct elements.
     department_data[department_name] = department_list.count(department_name)
-  return department_data
+  return department_data  #receives the list of dictionaries, i.e., employee_list as a parameter and return a dictionary of department:amount
 
 def write_report(dictionary, report_file):
   with open(report_file, "w+") as f: #the file mode is 'r' (reading) by default, so you should now explicitly pass 'w+' mode (open for reading and writing, overwriting a file) as a parameter.
